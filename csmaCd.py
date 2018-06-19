@@ -6,7 +6,7 @@ import sys
 from subprocess import os
 
 
-MAX_LOOP = 100           # Numero de vezes que o protocolo csma-cd executara
+MAX_LOOP = 5           # Numero de vezes que o protocolo csma-cd executara
 MAX_STATION = 10       # Numero de estacoes na rede
 MAX_PACKETS = 5        # Numero maximo de pacotes que cada estacao tenta transmitir
 TIME_SLOT = 0.00514     # Tempo de cada slot de tempo
@@ -122,7 +122,7 @@ def printResul ():
 # Impressao da ajuda
 def help():
     print "Use a linha de comando :"
-    print "    python csmaCd.py [ops] "
+    print "    python csmaCd.py [-d] [-r] "
     print "Com parametros opcionais, que sao:"
     print "   -d , para modo debug"
     print "   -r , para modo de impressao dos resultados"

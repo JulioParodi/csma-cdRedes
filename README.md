@@ -6,9 +6,9 @@ GRR : 20166160
 
 1 - Como usar o programa ?
 Para executar o programa execute o seguinte comando:
-		python csmaCd.py [ ops ]
+		python csmaCd.py [-d] [-r]
 	Podendo utilizar duas opções, que são:
-    Sem opções, o programa imprime as estações que conseguiram transmitir com sucesso e uma tabela de resultados finais, ao final da execução
+    Sem opções, o programa imprime as estações que conseguiram transmitir com sucesso e uma tabela de resultados, ao final da execução
 		-d, modo debug , onde todas as ações de cada estação serão impressas na saída padrão
 		-r , modo resultado, onde uma tabela dinâmica com os resultados das transmissões será impresso na saída padrão
 
